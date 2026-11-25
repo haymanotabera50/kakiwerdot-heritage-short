@@ -1,0 +1,8 @@
+file 'C:/Users/haymanotabera/tnx/output/video_shots_complete_finished/SH_01_clip_12s.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_complete_finished/SH_02_clip_10s.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_complete_finished/SH_03_clip_11s.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_complete_finished/SH_04_clip_11s.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_complete_finished/SH_05_clip_11s.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_complete_finished/SH_06_clip_10s.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_complete_finished/SH_07_clip_10s.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_complete_finished/SH_08_clip_12s.mp4'

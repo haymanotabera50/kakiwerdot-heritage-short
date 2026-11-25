@@ -1,0 +1,197 @@
+{
+  "title": "Kakiwerdot: The Voice That Would Not Be Silenced",
+  "version": "2.0.0",
+  "language": {
+    "primary": "Amharic",
+    "secondary": "English"
+  },
+  "aspect_ratios": ["16:9", "9:16"],
+  "target_total_duration_seconds": 85.0,
+  "character_reference": {
+    "name": "Kakiwerdot",
+    "age": 22,
+    "heritage": "Gurage (Ethiopian Highland)",
+    "physical_description": "22-year-old Ethiopian woman of Gurage heritage, warm honey-brown skin with natural texture, deep expressive brown eyes, high cheekbones, composed and dignified expression.",
+    "clothing": "Authentic Gurage traditional dress featuring vibrant patterned woven fabric in deep red, indigo, and ochre borders, wrapped headscarf (shash), patterned woven waist sash (meqenet), and traditional bead necklace (merkaz).",
+    "hairstyle": "Traditional Ethiopian fine braided cornrows (shuruba) crowned with a gracefully wrapped Gurage headscarf (shash).",
+    "visual_prompt_anchor": "Kakiwerdot, a 22-year-old Ethiopian woman of Gurage heritage, warm honey-brown skin, deep expressive brown eyes, high cheekbones, traditional neat braided cornrows (shuruba) under wrapped Gurage headscarf (shash), wearing authentic vibrant patterned Gurage woven dress in deep red and indigo with woven waist sash (meqenet) and traditional amber bead necklace (merkaz), photorealistic, 8k cinematic heritage documentary portrait"
+  },
+  "shots": [
+    {
+      "shot_id": "SH_01",
+      "sequence_number": 1,
+      "duration_seconds": 12.36,
+      "narration": {
+        "amharic": "በጉራጌ አምባ በእንሰት ማሳዎች መካከል፣ በ19ኛው መቶ ክፍለ ዘመን አንዲት ጀግና ሴት ተወለደች—ስሟም ቃቄ ወርድወት ይባላል።",
+        "english": "In the Gurage highlands amidst the Enset fields, in the 19th century a brave woman was born—her name was Kake Werdwot."
+      },
+      "visual_description": "Early morning mist drifting across lush green Enset (false banana) groves in the Ethiopian Gurage highlands. In the soft background, traditional thatched round Gurage houses (Gurage Bet) with woven bamboo craftsmanship sit peacefully amidst morning dew.",
+      "character_presence": false,
+      "location": "Gurage Highland Rural Landscape, Enset plantation",
+      "camera": {
+        "framing": "Wide establishing landscape shot",
+        "movement": "Slow crane down with gentle forward drift",
+        "angle": "Slight high angle looking over the mist-covered plantation"
+      },
+      "lighting": "Diffused dawn atmosphere with soft golden rays piercing through morning fog, rich emerald green and earth tones",
+      "image_prompt": "Cinematic heritage documentary establishing shot, lush Ethiopian Gurage highlands, sprawling green Enset (false banana) grove covered in soft morning mist, traditional circular thatched Gurage homes in the misty background, early morning golden light filtering through giant leaves, photorealistic, 8k resolution, shot on Arri Alexa 35mm, national geographic cinematography --ar 16:9",
+      "video_prompt": "Slow aerial crane shot gliding gently downward over morning mist drifting through giant green Enset leaves, soft dawn light creating gentle god rays, peaceful cinematic motion, 4k",
+      "audio_sfx": "Highland morning wind, gentle Ethiopian highland birdsong, rhythmic distant wooden mortar thud",
+      "transition": "Slow cross-dissolve"
+    },
+    {
+      "shot_id": "SH_02",
+      "sequence_number": 2,
+      "duration_seconds": 10.56,
+      "narration": {
+        "amharic": "ወጣት ሳለች፣ የሴቶች የዕለት ተዕለት ድካምና በባህሉ የሚደርስባቸውን የግዳጅ ጋብቻ እና መከራ በልቧ አሰበችበት።",
+        "english": "In her youth, she deeply reflected on women's daily toil and the burdens of forced marriage and hardship imposed by custom."
+      },
+      "visual_description": "Young Kakiwerdot wearing authentic Gurage attire, seated by an Enset tree with traditional scraping board (bana), her face showing deep reflection on the burdens women face.",
+      "character_presence": true,
+      "location": "Gurage homestead courtyard beside Enset trees",
+      "camera": {
+        "framing": "Medium close-up shot",
+        "movement": "Slow push-in toward her thoughtful expression",
+        "angle": "Eye level"
+      },
+      "lighting": "Soft natural morning light, gentle catchlight in her eyes, warm organic skin tones",
+      "image_prompt": "Kakiwerdot, a 22-year-old Ethiopian woman of Gurage heritage, wearing authentic Gurage woven dress in deep red and ochre, wrapped headscarf (shash), woven waist sash (meqenet), seated beside an Enset tree in a traditional homestead courtyard, deep thoughtful contemplative expression, soft morning light, hyperrealistic documentary portrait, 8k, photorealistic --ar 16:9",
+      "video_prompt": "Slow cinematic push-in on young Gurage woman reflecting by Enset tree, gentle natural breeze stirring her headscarf, 4k",
+      "audio_sfx": "Natural rustling of Enset leaves, soft breeze",
+      "transition": "Smooth cut"
+    },
+    {
+      "shot_id": "SH_03",
+      "sequence_number": 3,
+      "duration_seconds": 11.21,
+      "narration": {
+        "amharic": "ሴቶች በሸንጎ ድምጽ ባልነበራቸው በዚያ ዘመን፣ ዝምታን ሰብራ የሴቶችን ብሶት ይዛ ወደ ያጆካ የሽማግሌዎች ጉባኤ አመራች።",
+        "english": "In that era when women had no voice in assemblies, she broke the silence and carried women's grievances to the Yajoka council of elders."
+      },
+      "visual_description": "The historic Yajoka elders assembly gathered beneath the grand ancient shade tree. Village women stand at the perimeter in quiet solidarity as Kakiwerdot approaches.",
+      "character_presence": true,
+      "location": "Yajoka customary assembly grounds, Gurage",
+      "camera": {
+        "framing": "Wide contextual shot",
+        "movement": "Slow horizontal tracking from assembly perimeter toward the elders circle",
+        "angle": "Neutral eye-level"
+      },
+      "lighting": "Bright midday highland sunlight filtered through ancient tree canopy, dappled light and shadow",
+      "image_prompt": "Cinematic historical documentary wide shot, historic Yajoka elders assembly of the Gurage people under an ancient grand indigenous shade tree, elders seated in solemn deliberation with wooden walking staffs, women standing respectfully at the perimeter, highland Ethiopia, 8k, photorealistic --ar 16:9",
+      "video_prompt": "Subtle slow lateral camera tracking from assembly perimeter toward the circle of seated elders, dappled sunlight shifting through tree branches, 4k",
+      "audio_sfx": "Murmur of elder council, highland wind",
+      "transition": "Dissolve"
+    },
+    {
+      "shot_id": "SH_04",
+      "sequence_number": 4,
+      "duration_seconds": 10.90,
+      "narration": {
+        "amharic": "ቃቄ ወርድወት አልፈራችም፤ በክብር ቆማ የሴቶችን የመምረጥ፣ የመከበርና የፍትሕ መብት በጠንካራ ቃላት አስደመጠች።",
+        "english": "Kake Werdwot showed no fear; standing with dignity, she declared women's rights to choose, to be respected, and to have justice."
+      },
+      "visual_description": "Kakiwerdot stands fearlessly at the center of the assembly circle, draped in vibrant Gurage attire, speaking with eloquence, authority, and unwavering dignity.",
+      "character_presence": true,
+      "location": "Center of Yajoka assembly",
+      "camera": {
+        "framing": "Medium shot",
+        "movement": "Slow heroic push-in",
+        "angle": "Slight low angle conveying moral strength and composure"
+      },
+      "lighting": "Clear focused sunlight highlighting her face, expressive eyes, and traditional beads",
+      "image_prompt": "Kakiwerdot standing bravely at the center of the traditional Gurage assembly, wearing authentic patterned Gurage dress, wrapped shash headscarf, and bead necklace, speaking with unwavering dignity and resolve, solemn elders listening in the background, cinematic historical drama, 8k, photorealistic --ar 16:9",
+      "video_prompt": "Slow heroic push-in on young Gurage woman speaking firmly to assembly, warm sunlight on her face, cinematic drama, 4k",
+      "audio_sfx": "Solemn silence falling over the crowd",
+      "transition": "Cut"
+    },
+    {
+      "shot_id": "SH_05",
+      "sequence_number": 5,
+      "duration_seconds": 10.70,
+      "narration": {
+        "amharic": "«ሴት ልጅ የቤት አገልጋይ ብቻ ሳትሆን፣ የማህበረሰቡ ምሰሶ ናት» በማለት በታሪክ የማይረሳውን የፍትሕ ጥሪ አሰማች።",
+        "english": "'A woman is not merely a household servant, but the pillar of the community,' she proclaimed, sounding an unforgettable call for justice."
+      },
+      "visual_description": "Extreme close-up of Kakiwerdot's face as she delivers her defining proclamation. Her eyes burn with righteous purpose and deep compassion.",
+      "character_presence": true,
+      "location": "Center of assembly",
+      "camera": {
+        "framing": "Close-up portrait",
+        "movement": "Subtle slow push-in focusing on her eyes",
+        "angle": "Eye level"
+      },
+      "lighting": "Golden afternoon light, warm natural skin tones",
+      "image_prompt": "Close-up cinematic portrait of Kakiwerdot, 22-year-old Ethiopian Gurage heroine, powerful determined expression, authentic wrapped headscarf framing her face, amber beads visible, high cheekbones, radiant eyes, golden hour illumination, master portrait photography, 8k, photorealistic --ar 16:9",
+      "video_prompt": "Intimate cinematic close-up on heroine's face speaking her iconic words, breathing steadily, quiet strength, 4k",
+      "audio_sfx": "Reverberant acoustic resonance",
+      "transition": "Cut"
+    },
+    {
+      "shot_id": "SH_06",
+      "sequence_number": 6,
+      "duration_seconds": 9.58,
+      "narration": {
+        "amharic": "ሽማግሌዎቹ በአመክንዮዋና በድፍረቷ ተደንቀው አደመጧት፤ የጉራጌ ሴቶችም በድምጿ ብርታት አገኙ።",
+        "english": "The elders listened in awe of her logic and courage; and Gurage women found strength in her voice."
+      },
+      "visual_description": "The senior Gurage elders nod in deep contemplation and respect, acknowledging the truth of her words, while women in the background raise their heads with pride.",
+      "character_presence": false,
+      "location": "Assembly circle perimeter and elder bench",
+      "camera": {
+        "framing": "Medium group shot",
+        "movement": "Slow pan across the respectful elders and uplifted women",
+        "angle": "Neutral eye-level"
+      },
+      "lighting": "Warm afternoon light, rich shadows",
+      "image_prompt": "Traditional Gurage elders with wise weathered faces nodding respectfully in assembly, holding carved wooden canes, background showing Gurage women standing proud with hope in their eyes, cinematic documentary capture, 8k, photorealistic --ar 16:9",
+      "video_prompt": "Slow smooth pan across thoughtful faces of elders nodding and women smiling with quiet pride, 4k",
+      "audio_sfx": "Approving whispers, gentle highland breeze",
+      "transition": "Dissolve"
+    },
+    {
+      "shot_id": "SH_07",
+      "sequence_number": 7,
+      "duration_seconds": 9.74,
+      "narration": {
+        "amharic": "የቃቄ የህይወት ትግል በባህል ውስጥ ለሴቶች ክብርና ለትምህርት በር የከፈተ፣ ለዛሬው ትውልድ ትልቅ ፋና ሆነ።",
+        "english": "Kake's life struggle opened doors for women's dignity and education within culture, becoming a guiding light for today's generation."
+      },
+      "visual_description": "Symbolic visual transition: Kakiwerdot walking proudly through verdant Enset groves into bright sunlight, representing the enduring legacy of her historic courage.",
+      "character_presence": true,
+      "location": "Gurage highland ridge overlooking lush valleys",
+      "camera": {
+        "framing": "Wide tracking shot",
+        "movement": "Slow tracking shot from side moving with her walk",
+        "angle": "Slight low angle toward the horizon"
+      },
+      "lighting": "Luminous golden hour sunset across the Ethiopian rift highlands",
+      "image_prompt": "Kakiwerdot walking gracefully along a scenic Gurage highland ridge at golden hour, vibrant traditional Gurage dress and headscarf glowing in warm sunset, sweeping Ethiopian landscape in background, epic cinematic lighting, 8k, photorealistic --ar 16:9",
+      "video_prompt": "Wide tracking shot of Gurage woman walking toward the golden sunset, fabric moving gently in highland wind, inspiring cinematic feel, 4k",
+      "audio_sfx": "Highland wind, resonant distant melody",
+      "transition": "Slow cross-dissolve"
+    },
+    {
+      "shot_id": "SH_08",
+      "sequence_number": 8,
+      "duration_seconds": 9.96,
+      "narration": {
+        "amharic": "ቃቄ ወርድወት ዛሬም በኢትዮጵያውያን ሴቶች ልብ ውስጥ አልሞተችም፤ ድምጿ የነጻነትና የክብራችን ዘላለማዊ አርማ ነው።",
+        "english": "Kake Werdwot lives on in the hearts of Ethiopian women today; her voice remains an eternal symbol of our freedom and dignity."
+      },
+      "visual_description": "Final commemorative heroic portrait of Kakiwerdot smiling with serene pride into the horizon, her legacy living on in generations of empowered Ethiopian women.",
+      "character_presence": true,
+      "location": "Gurage highland plateau",
+      "camera": {
+        "framing": "Heroic medium close-up",
+        "movement": "Slow pull-back revealing the vast highland expanse behind her",
+        "angle": "Eye level with slight low tilt"
+      },
+      "lighting": "Rich sunset rim light, brilliant warm sky, majestic highland atmosphere",
+      "image_prompt": "Heroic commemorative cinematic portrait of Kakiwerdot, Ethiopian Gurage pioneer of women's rights, dignified smile, authentic traditional dress and merkaz beads, looking toward the horizon, majestic Gurage mountains at sunset in background, National Geographic heritage cover style, 8k, photorealistic --ar 16:9",
+      "video_prompt": "Slow epic pull-back from smiling Gurage heroine to reveal vast beautiful Ethiopian mountain landscape at dusk, peaceful inspiring cinematic motion, 4k",
+      "audio_sfx": "Gentle acoustic resolution, highland breeze",
+      "transition": "Fade to black"
+    }
+  ]
+}

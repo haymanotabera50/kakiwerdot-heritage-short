@@ -1,0 +1,8 @@
+﻿file 'SH_01_padded.wav'
+file 'SH_02_padded.wav'
+file 'SH_03_padded.wav'
+file 'SH_04_padded.wav'
+file 'SH_05_padded.wav'
+file 'SH_06_padded.wav'
+file 'SH_07_padded.wav'
+file 'SH_08_padded.wav'

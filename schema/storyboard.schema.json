@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StoryboardSchema",
+  "description": "Validation schema for the 10 Academy Heritage Short AI film storyboard.",
+  "type": "object",
+  "required": [
+    "title",
+    "version",
+    "aspect_ratios",
+    "target_total_duration_seconds",
+    "character_reference",
+    "shots"
+  ],
+  "properties": {
+    "title": { "type": "string" },
+    "version": { "type": "string" },
+    "language": {
+      "type": "object",
+      "required": ["primary", "secondary"],
+      "properties": {
+        "primary": { "type": "string" },
+        "secondary": { "type": "string" }
+      }
+    },
+    "aspect_ratios": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["16:9", "9:16"] }
+    },
+    "target_total_duration_seconds": {
+      "type": "number",
+      "minimum": 60,
+      "maximum": 90
+    },
+    "character_reference": {
+      "type": "object",
+      "required": [
+        "name",
+        "age",
+        "heritage",
+        "physical_description",
+        "clothing",
+        "hairstyle",
+        "visual_prompt_anchor"
+      ],
+      "properties": {
+        "name": { "type": "string" },
+        "age": { "type": "integer" },
+        "heritage": { "type": "string" },
+        "physical_description": { "type": "string" },
+        "clothing": { "type": "string" },
+        "hairstyle": { "type": "string" },
+        "visual_prompt_anchor": { "type": "string" }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "required": [
+          "shot_id",
+          "sequence_number",
+          "duration_seconds",
+          "narration",
+          "visual_description",
+          "camera",
+          "lighting",
+          "image_prompt",
+          "video_prompt",
+          "transition"
+        ],
+        "properties": {
+          "shot_id": { "type": "string" },
+          "sequence_number": { "type": "integer" },
+          "duration_seconds": { "type": "number", "minimum": 2, "maximum": 15 },
+          "narration": {
+            "type": "object",
+            "required": ["amharic", "english"],
+            "properties": {
+              "amharic": { "type": "string" },
+              "english": { "type": "string" }
+            }
+          },
+          "visual_description": { "type": "string" },
+          "character_presence": { "type": "boolean" },
+          "location": { "type": "string" },
+          "camera": {
+            "type": "object",
+            "required": ["framing", "movement", "angle"],
+            "properties": {
+              "framing": { "type": "string" },
+              "movement": { "type": "string" },
+              "angle": { "type": "string" }
+            }
+          },
+          "lighting": { "type": "string" },
+          "image_prompt": { "type": "string" },
+          "video_prompt": { "type": "string" },
+          "audio_sfx": { "type": "string" },
+          "transition": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+file 'C:/Users/haymanotabera/tnx/output/video_shots_authentic_gurage/SH_01_clip.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_authentic_gurage/SH_02_clip.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_authentic_gurage/SH_03_clip.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_authentic_gurage/SH_04_clip.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_authentic_gurage/SH_05_clip.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_authentic_gurage/SH_06_clip.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_authentic_gurage/SH_07_clip.mp4'
+file 'C:/Users/haymanotabera/tnx/output/video_shots_authentic_gurage/SH_08_clip.mp4'
