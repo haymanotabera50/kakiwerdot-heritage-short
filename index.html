@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kakiwerdot: The Voice That Would Not Be Silenced | AI Heritage Short</title>
+  <style>
+    body {
+      background-color: #0b0f17;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin: 0;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 960px;
+      width: 100%;
+    }
+    header {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    h1 {
+      color: #f6c042;
+      font-size: 28px;
+      margin: 0 0 8px 0;
+      letter-spacing: -0.5px;
+    }
+    p.subtitle {
+      color: #94a3b8;
+      font-size: 15px;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .badge {
+      display: inline-block;
+      background: #1e293b;
+      color: #38bdf8;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 10px;
+      border: 1px solid #334155;
+    }
+    .video-card {
+      background: #111827;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      border: 1px solid #1f293d;
+      margin-bottom: 24px;
+    }
+    .video-viewport {
+      position: relative;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    video {
+      width: 100%;
+      max-height: 540px;
+      display: block;
+      outline: none;
+    }
+    .controls-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 16px 20px;
+      background: #162032;
+      border-top: 1px solid #24324a;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .btn-group {
+      display: flex;
+      gap: 8px;
+    }
+    .btn {
+      background: #2563eb;
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn:hover {
+      background: #1d4ed8;
+    }
+    .btn.active {
+      background: #f6c042;
+      color: #0b0f17;
+    }
+    .status-pill {
+      font-size: 13px;
+      color: #10b981;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background: #10b981;
+      border-radius: 50%;
+    }
+    .script-section {
+      background: #111827;
+      border-radius: 14px;
+      padding: 24px;
+      border: 1px solid #1f293d;
+      margin-bottom: 24px;
+    }
+    .script-section h2 {
+      margin-top: 0;
+      color: #f6c042;
+      font-size: 18px;
+      border-bottom: 1px solid #1f293d;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+    }
+    .stanza {
+      display: flex;
+      gap: 16px;
+      padding: 12px;
+      border-radius: 8px;
+      background: #162032;
+      margin-bottom: 10px;
+      align-items: flex-start;
+    }
+    .shot-tag {
+      background: #1e293b;
+      color: #f6c042;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 700;
+      min-width: 52px;
+      text-align: center;
+    }
+    .text-content {
+      flex: 1;
+    }
+    .amharic-text {
+      color: #f8fafc;
+      font-size: 16px;
+      line-height: 1.6;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    .english-text {
+      color: #94a3b8;
+      font-size: 13px;
+      line-height: 1.4;
+      font-style: italic;
+    }
+    footer {
+      text-align: center;
+      color: #64748b;
+      font-size: 13px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ቃቄ ወርድወት (Kakiwerdot)</h1>
+      <p class="subtitle">The Voice That Would Not Be Silenced | AI Heritage Short Film (85.0s)</p>
+      <div class="badge">Authentic Gurage Attire &bull; Spoken Amharic Narration &bull; Zero Music Interference</div>
+    </header>
+
+    <div class="video-card">
+      <div class="video-viewport">
+        <video id="player" controls autoplay preload="auto">
+          <source id="videoSource" src="output/kakiwerdot_VOICE_ONLY_NO_MUSIC_16x9.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="controls-bar">
+        <div class="btn-group">
+          <button class="btn active" id="btn16x9" onclick="switchVideo('16x9')">16:9 Landscape (Full Cinematic)</button>
+          <button class="btn" id="btn9x16" onclick="switchVideo('9x16')">9:16 Vertical Mobile</button>
+        </div>
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span id="formatLabel">16:9 Landscape &bull; 85s Pure Spoken Voice</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="script-section">
+      <h2>የቃቄ ወርድወት እውነተኛ የህይወት ታሪክ (The Authentic 8-Shot Life Story)</h2>
+
+      <div class="stanza">
+        <div class="shot-tag">SH_01 (12.4s)</div>
+        <div class="text-content">
+          <div class="amharic-text">በጉራጌ አምባ በእንሰት ማሳዎች መካከል፣ በ19ኛው መቶ ክፍለ ዘመን አንዲት ጀግና ሴት ተወለደች—ስሟም ቃቄ ወርድወት ይባላል።</div>
+          <div class="english-text">In the Gurage highlands amidst the Enset fields, in the 19th century a brave woman was born—her name was Kake Werdwot.</div>
+        </div>
+      </div>
+
+      <div class="stanza">
+        <div class="shot-tag">SH_02 (10.6s)</div>
+        <div class="text-content">
+          <div class="amharic-text">ወጣት ሳለች፣ የሴቶች የዕለት ተዕለት ድካምና በባህሉ የሚደርስባቸውን የግዳጅ ጋብቻ እና መከራ በልቧ አሰበችበት።</div>
+          <div class="english-text">In her youth, she deeply reflected on women's daily toil and the burdens of forced marriage and hardship imposed by custom.</div>
+        </div>
+      </div>
+
+      <div class="stanza">
+        <div class="shot-tag">SH_03 (11.2s)</div>
+        <div class="text-content">
+          <div class="amharic-text">ሴቶች በሸንጎ ድምጽ ባልነበራቸው በዚያ ዘመን፣ ዝምታን ሰብራ የሴቶችን ብሶት ይዛ ወደ ያጆካ የሽማግሌዎች ጉባኤ አመራች።</div>
+          <div class="english-text">In that era when women had no voice in assemblies, she broke the silence and carried women's grievances to the Yajoka council of elders.</div>
+        </div>
+      </div>
+
+      <div class="stanza">
+        <div class="shot-tag">SH_04 (10.9s)</div>
+        <div class="text-content">
+          <div class="amharic-text">ቃቄ ወርድወት አልፈራችም፤ በክብር ቆማ የሴቶችን የመምረጥ፣ የመከበርና የፍትሕ መብት በጠንካራ ቃላት አስደመጠች።</div>
+          <div class="english-text">Kake Werdwot showed no fear; standing with dignity, she declared women's rights to choose, to be respected, and to have justice.</div>
+        </div>
+      </div>
+
+      <div class="stanza">
+        <div class="shot-tag">SH_05 (10.7s)</div>
+        <div class="text-content">
+          <div class="amharic-text">«ሴት ልጅ የቤት አገልጋይ ብቻ ሳትሆን፣ የማህበረሰቡ ምሰሶ ናት» በማለት በታሪክ የማይረሳውን የፍትሕ ጥሪ አሰማች።</div>
+          <div class="english-text">'A woman is not merely a household servant, but the pillar of the community,' she proclaimed, sounding an unforgettable call for justice.</div>
+        </div>
+      </div>
+
+      <div class="stanza">
+        <div class="shot-tag">SH_06 (9.6s)</div>
+        <div class="text-content">
+          <div class="amharic-text">ሽማግሌዎቹ በአመክንዮዋና በድፍረቷ ተደንቀው አደመጧት፤ የጉራጌ ሴቶችም በድምጿ ብርታት አገኙ።</div>
+          <div class="english-text">The elders listened in awe of her logic and courage; and Gurage women found strength in her voice.</div>
+        </div>
+      </div>
+
+      <div class="stanza">
+        <div class="shot-tag">SH_07 (9.7s)</div>
+        <div class="text-content">
+          <div class="amharic-text">የቃቄ የህይወት ትግል በባህል ውስጥ ለሴቶች ክብርና ለትምህርት በር የከፈተ፣ ለዛሬው ትውልድ ትልቅ ፋና ሆነ።</div>
+          <div class="english-text">Kake's life struggle opened doors for women's dignity and education within culture, becoming a guiding light for today's generation.</div>
+        </div>
+      </div>
+
+      <div class="stanza">
+        <div class="shot-tag">SH_08 (10.0s)</div>
+        <div class="text-content">
+          <div class="amharic-text">ቃቄ ወርድወት ዛሬም በኢትዮጵያውያን ሴቶች ልብ ውስጥ አልሞተችም፤ ድምጿ የነጻነትና የክብራችን ዘላለማዊ አርማ ነው።</div>
+          <div class="english-text">Kake Werdwot lives on in the hearts of Ethiopian women today; her voice remains an eternal symbol of our freedom and dignity.</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      10 Academy AI Content Generation Challenge: The Heritage Short &bull; Kakiwerdot Production Pipeline
+    </footer>
+  </div>
+
+  <script>
+    const player = document.getElementById('player');
+    const videoSource = document.getElementById('videoSource');
+    const formatLabel = document.getElementById('formatLabel');
+    const btn16x9 = document.getElementById('btn16x9');
+    const btn9x16 = document.getElementById('btn9x16');
+
+    function switchVideo(ratio) {
+      if (ratio === '16x9') {
+        videoSource.src = 'output/kakiwerdot_VOICE_ONLY_NO_MUSIC_16x9.mp4';
+        formatLabel.textContent = '16:9 Landscape \u2022 85s Pure Spoken Voice';
+        btn16x9.classList.add('active');
+        btn9x16.classList.remove('active');
+        player.style.maxHeight = '540px';
+      } else {
+        videoSource.src = 'output/kakiwerdot_VOICE_ONLY_NO_MUSIC_9x16.mp4';
+        formatLabel.textContent = '9:16 Vertical Mobile \u2022 85s Pure Spoken Voice';
+        btn9x16.classList.add('active');
+        btn16x9.classList.remove('active');
+        player.style.maxHeight = '720px';
+      }
+      player.load();
+      player.play().catch(e => console.log('Autoplay deferred until click'));
+    }
+  </script>
+</body>
+</html>
